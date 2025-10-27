@@ -36,7 +36,7 @@ const Index = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);
 
   // Replace with your actual WhatsApp number (format: 2348012345678)
-  const WHATSAPP_NUMBER = "2348012345678";
+  const WHATSAPP_NUMBER = "2349110289355";
 
   const getCartItemQuantity = (productId: string) => {
     return cart.find((item) => item.id === productId)?.quantity || 0;
@@ -88,7 +88,7 @@ const Index = () => {
     const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
     const message = `Order Details:%0A%0A${orderDetails}%0A%0ATotal: ₦${total.toLocaleString()}`;
 
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, "_blank");
+    window.open(`https://wa.me/${2348036460731}?text=${Hey royal ponmo, i want to make an order for ponmo}`,);
   };
 
   const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
