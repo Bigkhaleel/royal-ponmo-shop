@@ -88,7 +88,7 @@ const Index = () => {
     const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
     const message = `Order Details:%0A%0A${orderDetails}%0A%0ATotal: ₦${total.toLocaleString()}`;
 
-    window.open(`https://wa.me/${2348036460731}?text=${Hey royal ponmo, i want to make an order for ponmo}`,);
+    window.open(`https://wa.me/${2348036460731}?text=${Hello royal ponmo, i want to make an order for ponmo}`, "_blank");
   };
 
   const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
