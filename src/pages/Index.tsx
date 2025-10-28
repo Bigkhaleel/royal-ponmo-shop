@@ -81,7 +81,7 @@ const Index = () => {
   const handleCheckout = () => {
     if (cart.length === 0) return;
 
-    const message = encodeURIComponent("Hello royal ponmo, i want to make an order for ponmo");
+    const message = encodeURIComponent("hello royal ponmo, i want to make an order for ponmo");
     window.open(`https://wa.me/2348036460731?text=${message}`, "_blank");
   };
 

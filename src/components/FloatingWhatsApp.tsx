@@ -7,7 +7,7 @@ interface FloatingWhatsAppProps {
 
 const FloatingWhatsApp = ({ phoneNumber }: FloatingWhatsAppProps) => {
   const handleClick = () => {
-    const message = encodeURIComponent("Hello! I'd like to know more about your ponmo products.");
+    const message = encodeURIComponent("hello royal ponmo, i want to make an order for ponmo");
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
   };
 
