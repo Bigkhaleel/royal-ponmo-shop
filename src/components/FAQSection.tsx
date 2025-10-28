@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     question: "Do you deliver? What are the delivery charges?",
-    answer: "Yes, we deliver across Lagos and surrounding areas. Delivery charges vary by location. Contact us via WhatsApp for specific delivery information for your area. Same-day delivery is available for orders placed before 2 PM."
+    answer: "Yes, we deliver nationwide. Delivery charges vary by location. Contact us via WhatsApp for specific delivery information for your area. Same-day delivery is available for orders placed before 2 PM in Abuja."
   }
 ];
 
