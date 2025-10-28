@@ -81,14 +81,8 @@ const Index = () => {
   const handleCheckout = () => {
     if (cart.length === 0) return;
 
-    const orderDetails = cart
-      .map((item) => `${item.name} x${item.quantity} = ₦${(item.price * item.quantity).toLocaleString()}`)
-      .join("%0A");
-    
-    const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
-    const message = `Order Details:%0A%0A${orderDetails}%0A%0ATotal: ₦${total.toLocaleString()}`;
-
-    window.open(`https://wa.me/${2348036460731}?text=${Hello royal ponmo, i want to make an order for ponmo}`, "_blank");
+    const message = encodeURIComponent("Hello royal ponmo, i want to make an order for ponmo");
+    window.open(`https://wa.me/2348036460731?text=${message}`, "_blank");
   };
 
   const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
