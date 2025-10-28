@@ -130,17 +130,17 @@ const Index = () => {
             
             <div className="grid gap-6 md:grid-cols-3 max-w-6xl mx-auto">
               <ReviewCard
-                name="Chioma Adeleke"
+                name="Tunde Olayiwola"
                 rating={5}
                 review="The best ponmo I've bought online! Fresh, clean, and delivered on time. Will definitely order again."
               />
               <ReviewCard
-                name="Tunde Bakare"
+                name="Nuhu Sani"
                 rating={5}
                 review="Quality is top-notch and the prices are very reasonable. My family loves the big ponmo for our weekend soups."
               />
               <ReviewCard
-                name="Ngozi Okonkwo"
+                name="Blessing Eze"
                 rating={5}
                 review="Fast delivery and excellent customer service. The WhatsApp ordering process is so convenient!"
               />
