@@ -82,7 +82,9 @@ const Index = () => {
     if (cart.length === 0) return;
 
     const message = encodeURIComponent("hello royal ponmo, i want to make an order for ponmo");
-    window.open(`https://wa.me/2348036460731?text=${message}`, "_blank");
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
+    const win = window.open(url, "_blank", "noopener,noreferrer");
+    if (!win) window.location.href = url;
   };
 
   const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
