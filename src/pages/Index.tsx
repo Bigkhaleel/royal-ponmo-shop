@@ -36,7 +36,7 @@ const Index = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);
 
   // Replace with your actual WhatsApp number (format: 2348012345678)
-  const WHATSAPP_NUMBER = "2349110289355";
+  const WHATSAPP_NUMBER = "2348036460731";
 
   const getCartItemQuantity = (productId: string) => {
     return cart.find((item) => item.id === productId)?.quantity || 0;
